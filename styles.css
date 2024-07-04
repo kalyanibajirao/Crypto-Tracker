@@ -1,0 +1,60 @@
+/* styles.css */
+
+body {
+  background-color: #1c1c1e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+input,
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+}
+
+#search-input {
+  width: 970px;
+  background-color: #444;
+}
+input {
+  width: 200px;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #444;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+}
+
+td img {
+  width: 24px;
+  height: 24px;
+}
